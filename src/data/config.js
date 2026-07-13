@@ -15,17 +15,18 @@ export const coupleInfo = {
 }
 
 // 相册照片 - 替换为你自己的照片
-// 可以使用本地图片 (放在 public/photos/ 目录下) 或网络图片链接
+// 使用方法：把照片放到 public/photos/ 文件夹，然后这里写 /photos/照片名.jpg
+// 或者使用网络图片链接（如 https://xxx.com/photo.jpg）
 export const photos = [
   {
-    src: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600&h=600&fit=crop',
+    src: '/photos/2cats.jpg',  // ← 改成你的本地照片
     caption: '初次相遇',
-    date: '2023.05.20',
+    date: '2024.08.03',
   },
   {
-    src: 'https://images.unsplash.com/photo-1529636798458-1504f8638781?w=600&h=600&fit=crop',
+    src: '/photos/8cat.jpg',
     caption: '第一次约会',
-    date: '2023.06.01',
+    date: '2024.08.10',
   },
   {
     src: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=600&h=600&fit=crop',
