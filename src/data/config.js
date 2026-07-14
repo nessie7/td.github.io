@@ -1,4 +1,4 @@
-// ===== 配置文件 · Customize everything here =====
+﻿// ===== 配置文件 · Customize everything here =====
 
 // 情侣信息
 export const coupleInfo = {
@@ -19,12 +19,12 @@ export const coupleInfo = {
 // 或者使用网络图片链接（如 https://xxx.com/photo.jpg）
 export const photos = [
   {
-    src: '/photos/2cats.jpg',  // ← 改成你的本地照片
+    src: 'photos/2cats.jpg',  // ← 改成你的本地照片
     caption: '初次相遇',
     date: '2024.08.03',
   },
   {
-    src: '/photos/8cat.jpg',
+    src: 'photos/8cat.jpg',
     caption: '第一次约会',
     date: '2024.08.10',
   },
