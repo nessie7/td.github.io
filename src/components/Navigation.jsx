@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+﻿import { useEffect, useState } from 'react'
 import Logo from './Logo'
 
 export default function Navigation() {
@@ -22,7 +22,7 @@ export default function Navigation() {
   return (
     <nav className={`nav-bar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-logo" onClick={() => scrollTo('hero')}>
-        <Logo size={36} showText={true} />
+        <Logo size={36} showText={false} />
       </div>
       <ul className="nav-links">
         <li>
