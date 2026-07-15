@@ -46,44 +46,33 @@ export const photos = [...autoMap.values(), ...extraManual]
 // 支持本地音乐 (放在 public/music/ 目录下) 或网络链接
 export const playlist = [
   {
-    title: 'Can\'t Help Falling in Love',
-    artist: 'Elvis Presley',
-    src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+    title: '你是我的光',
+    artist: 'Minimax',
+    src: 'music/你是我的光.mp3',
   },
   {
-    title: 'Perfect',
-    artist: 'Ed Sheeran',
-    src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
-  },
-  {
-    title: 'A Thousand Years',
-    artist: 'Christina Perri',
-    src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+    title: '星晴',
+    artist: '周杰伦',
+    src: 'music/周杰伦-星晴.mp3',
   },
   {
     title: 'Lover',
     artist: 'Taylor Swift',
-    src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+    src: 'music/Taylor+Swift-Lover.mp3',
   },
-  {
-    title: 'All of Me',
-    artist: 'John Legend',
-    src: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
-  },
+
 ]
 
 // 情书内容
-export const loveLetter = `亲爱的你：
+export const loveLetter = `亲爱的谭咪卓：
 
-从遇见你的那一刻起，我的世界就被点亮了。
+从没有见过跟你一样可爱、帅气又迷人的男生，那天在实验室第一次见面，你大大的眼睛，长长的睫毛，像小狗一样卷曲的头发，那个画面我记了很久很久。
 
-你的笑容像清晨的第一缕阳光，温暖而明亮。你的声音是最美的旋律，让我忍不住一遍遍聆听。
+你的声音响亮，中气十足，唱歌的时候又很有少年感，唱歌很好听（但是宝宝遇到高音总是瞎唱）。
 
-每一天醒来，想到的第一件事就是你；每一个夜晚入睡前，最后想到的还是你。
+我们一起走过的日子，无论是晴天还是雨天，不管是吵架，还是甜蜜，那些日子都因为有你在身边而变得格外珍贵。
 
-我们一起走过的日子，无论是晴天还是雨天，都因为有你在身边而变得格外珍贵。
-
-感谢你选择了我，感谢你包容我的不完美。未来的每一天，我都想牵着你的手，一起走过春夏秋冬。
+感谢你选择了我，感谢你包容我的不完美（虽然也对我重拳出击）。未来的每一天，我都想牵着你的手，一起走过春夏秋冬。
 
 愿我们的爱情，如星辰般永恒，如溪流般绵长。
 
@@ -181,5 +170,6 @@ export const timelineEvents = [
     title: '未完待续......',
     desc: '',
   },
+  
   
 ]
