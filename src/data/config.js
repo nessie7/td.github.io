@@ -9,7 +9,7 @@ export const coupleInfo = {
   // 在一起的日期 (格式: YYYY-MM-DD)，第一天算入
   anniversary: '2024-08-03',
   // 英文标题
-  title: 'Our Love Story',
+  title: 'Love Story',
   // 副标题
   subtitle: '每一天，都是最好的我们',
 }
@@ -46,6 +46,16 @@ export const photos = [...autoMap.values(), ...extraManual]
 // 支持本地音乐 (放在 public/music/ 目录下) 或网络链接
 export const playlist = [
   {
+    title: '盐汽水',
+    artist: 'Minimax',
+    src: 'music/你是我的光.mp3',
+  },
+  {
+    title: '木吉他',
+    artist: 'Minimax',
+    src: 'music/你是我的光.mp3',
+  },
+  {
     title: '你是我的光',
     artist: 'Minimax',
     src: 'music/你是我的光.mp3',
@@ -60,6 +70,7 @@ export const playlist = [
     artist: 'Taylor Swift',
     src: 'music/Taylor+Swift-Lover.mp3',
   },
+
 
 ]
 
@@ -138,7 +149,7 @@ export const timelineEvents = [
   {
     date: '2025.08.02',
     title: '小谭生日',
-    desc: '',
+    desc: '小谭小戴赴海鲜盛宴，\n满心期待佳肴摆满案。\n两人肚饱菜剩一大片，\n小谭嘴馋冰淇淋甜点。\n浅尝两口甜腻难下咽，\n剩糕全盘交由小戴垫。',
   },
   {
     date: '2025.10',
@@ -148,7 +159,7 @@ export const timelineEvents = [
   {
     date: '2026.01',
     title: '小谭和小戴共庆祝元旦',
-    desc: '',
+    desc: '小谭小戴度元旦，\n山姆购入牛与糕。\n围家涮锅暖意满满，\n创新天地相伴游玩。\n甜蜜约会尽兴狂欢，\n归途双双染上风寒',
   },
   {
     date: '2026.05.01',
@@ -163,7 +174,7 @@ export const timelineEvents = [
   {
     date: '2026.06',
     title: '小谭和小戴同游南京吃饭',
-    desc: '',
+    desc: '小谭小戴同住丹凤街，\n共看玩具总动员系列。\n各色美食轮番尝遍，\n朝夕相伴欢喜不绝。',
   },
   {
     date: 'To be continued',
