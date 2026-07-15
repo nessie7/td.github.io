@@ -5,14 +5,9 @@ const particles = [
   { chars: ['❤', '♥', '❥', '♡'], color: 'var(--color-rose-300)' },
   // 向日葵
   { chars: ['🌻'], color: '#f5a623' },
-  // 可爱猫咪
-  { chars: ['🐱', '🐈'], color: '#e8a87c' },
-  // 可爱兔子
-  { chars: ['🐰', '🐇'], color: '#f0d9da' },
-  // 樱花
-  { chars: ['🌸'], color: '#f7c5cc' },
+
   // 桃花
-  { chars: ['🏵️', '🌸'], color: '#e88d9e' },
+  { chars: ['🌸'], color: '#e88d9e' },
   // 雪花
   { chars: ['❄', '❅', '❆'], color: '#b5d8e8' },
 ]
