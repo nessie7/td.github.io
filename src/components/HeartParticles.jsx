@@ -1,38 +1,53 @@
 import { useEffect, useState } from 'react'
 
-const hearts = ['❤', '♥', '❥', '♡']
+const particles = [
+  // 爱心
+  { chars: ['❤', '♥', '❥', '♡'], color: 'var(--color-rose-300)' },
+  // 向日葵
+  { chars: ['🌻'], color: '#f5a623' },
+  // 可爱猫咪
+  { chars: ['🐱', '🐈'], color: '#e8a87c' },
+  // 可爱兔子
+  { chars: ['🐰', '🐇'], color: '#f0d9da' },
+  // 樱花
+  { chars: ['🌸'], color: '#f7c5cc' },
+  // 桃花
+  { chars: ['🏵️', '🌸'], color: '#e88d9e' },
+  // 雪花
+  { chars: ['❄', '❅', '❆'], color: '#b5d8e8' },
+]
 
 export default function HeartParticles() {
-  const [particles, setParticles] = useState([])
+  const [items, setItems] = useState([])
 
   useEffect(() => {
-    const generate = () => {
-      const count = 18
-      const arr = []
-      for (let i = 0; i < count; i++) {
-        arr.push({
-          id: i,
-          left: Math.random() * 100,
-          size: 12 + Math.random() * 24,
-          duration: 8 + Math.random() * 12,
-          delay: Math.random() * 15,
-          char: hearts[Math.floor(Math.random() * hearts.length)],
-        })
-      }
-      setParticles(arr)
+    const count = 42
+    const arr = []
+    for (let i = 0; i < count; i++) {
+      const group = particles[Math.floor(Math.random() * particles.length)]
+      arr.push({
+        id: i,
+        left: Math.random() * 100,
+        size: 14 + Math.random() * 24,
+        duration: 10 + Math.random() * 16,
+        delay: Math.random() * 20,
+        char: group.chars[Math.floor(Math.random() * group.chars.length)],
+        color: group.color,
+      })
     }
-    generate()
+    setItems(arr)
   }, [])
 
   return (
     <div className="heart-particles">
-      {particles.map((p) => (
+      {items.map((p) => (
         <span
           key={p.id}
           className="heart-particle"
           style={{
             left: `${p.left}%`,
             fontSize: `${p.size}px`,
+            color: p.color,
             animationDuration: `${p.duration}s`,
             animationDelay: `${p.delay}s`,
           }}
