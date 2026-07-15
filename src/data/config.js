@@ -53,7 +53,7 @@ export const playlist = [
   {
     title: '星晴',
     artist: '周杰伦',
-    src: 'music/周杰伦-星晴.mp3',
+    src: 'music/周杰伦 - 星晴.mp3',
   },
   {
     title: 'Lover',
