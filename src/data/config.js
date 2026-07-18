@@ -46,14 +46,14 @@ export const photos = [...autoMap.values(), ...extraManual]
 // 支持本地音乐 (放在 public/music/ 目录下) 或网络链接
 export const playlist = [
   {
-    title: '盐汽水',
+    title: '午后慵懒1',
     artist: 'Minimax',
-    src: 'music/你是我的光.mp3',
+    src: 'music/午后慵懒1.mp3',
   },
   {
-    title: '木吉他',
+    title: '午后慵懒2',
     artist: 'Minimax',
-    src: 'music/你是我的光.mp3',
+    src: 'music/午后慵懒2.mp3',
   },
   {
     title: '你是我的光',
